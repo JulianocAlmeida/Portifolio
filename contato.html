@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- ****** VINCULANDO AO ARQUIVO CSS ****** -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- ****** CABEÇARIO DA PAGINA ****** -->
+    <header id="header">
+        <div id="logo">
+            <h1>Portfólio Pessoal</h1>
+        </div>
+    <!-- ****** MENU DE NAVEGAÇÃO ****** -->
+        <nav>
+            <ul>
+                <li><a href="Sobre mim.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação Acadêmica</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Página Inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contato</h2>
+        <p> Telefone: (51) 999585603</p>
+        <p> E-mail: juliano.nho@gmail.com</p>
+        <p> Ou se preferir use o formulário abaixo para entrar em contato:</p>
+
+    <!-- ****** FORMULARIO DE CONTATO ****** -->
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <p style="color: #fff;">== Botão enviar não está configurado ==</p>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+****** FORMATAÇÕES ******
+*/
+
+body {
+    background-image: url('../Imagens/fundo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: left;
+    margin: 15px;
+}
+
+p {
+    font-size: 20px;
+    margin: 15px;
+    color: #000000;
+    text-align: justify;
+}
+
+p2 {
+    font-size: 40px;
+    margin: 15px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* 
+****** ESTILIZAÇÃO MENU ******
+*/
+
+nav {
+    background-color: #2f38bb;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #cccccc;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* 
+****** HEADER ******
+*/
+
+#header {
+    padding: 25px;
+    text-align: center;
+}
+
+#logo h1 {
+    margin: 0;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+/* 
+****** IMAGEM ******
+*/
+
+img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 15px;
+}
+
+/* 
+****** ESTILO DA PÁGINA PORTFÓLIO ******
+*/
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.3);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.portfolio-item a {
+    display: block;
+    padding: 10px;
+    color: #2f38bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+/* 
+****** ESTILO PAGINA DE CONTATO ******
+*/
+
+form {
+    margin: 20px;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #252525;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #2f38bb;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1e2b7a;
+}
+
+.tracejado {
+    display: inline-block; 
+    border-bottom: 3px dashed #ffffff; 
+    padding-bottom: 2px; 
+}
